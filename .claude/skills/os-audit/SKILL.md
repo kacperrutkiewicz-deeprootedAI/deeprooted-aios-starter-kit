@@ -98,11 +98,11 @@ Your AIOS is current through: YYYY-MM-DD
 
 | Check       | Verdict          | Worst finding |
 | ----------- | ---------------- | ------------- |
-| Routing     | GREEN/YELLOW/RED | ...           |
-| Freshness   | GREEN/YELLOW/RED | ...           |
-| Bloat       | GREEN/YELLOW/RED | ...           |
-| Skills      | GREEN/YELLOW/RED | ...           |
-| Clashes     | GREEN/YELLOW/RED | ...           |
+| Routing     | 🟢 GREEN / 🟡 YELLOW / 🔴 RED | ...           |
+| Freshness   | 🟢 GREEN / 🟡 YELLOW / 🔴 RED | ...           |
+| Bloat       | 🟢 GREEN / 🟡 YELLOW / 🔴 RED | ...           |
+| Skills      | 🟢 GREEN / 🟡 YELLOW / 🔴 RED | ...           |
+| Clashes     | 🟢 GREEN / 🟡 YELLOW / 🔴 RED | ...           |
 
 ## What would make your AI give you a wrong answer today
 - [2-4 bullets, the findings that matter most]
@@ -120,10 +120,10 @@ Your AIOS is current through: YYYY-MM-DD
 - Batch D: mirror drift (run /sync)
 ```
 
-**Verdicts:** RED = something that would cause a wrong answer today (dead route, expired fact in
+**Verdicts** (always with the colored circle): 🔴 RED = something that would cause a wrong answer today (dead route, expired fact in
 priorities or goals, a clash on a key fact, a skill that can't load, a secret not covered by
-`.gitignore`). YELLOW = drift that will get there (a file 30-60 days old, an unmapped folder,
-bloat, a gap). GREEN = checked and clean. Be honest. Don't invent problems in a clean setup.
+`.gitignore`). 🟡 YELLOW = drift that will get there (a file 30-60 days old, an unmapped folder,
+bloat, a gap). 🟢 GREEN = checked and clean. Be honest. Don't invent problems in a clean setup.
 
 ## After the report
 
