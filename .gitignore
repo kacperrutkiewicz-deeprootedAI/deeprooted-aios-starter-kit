@@ -1,0 +1,20 @@
+# Secrets: never commit these
+.env
+.env.*
+*.env
+*.pem
+*.key
+secrets/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian per-device state
+.obsidian/workspace*.json
+.obsidian/cache
+
+# Claude Code local-only files
+.claude/settings.local.json
+CLAUDE.local.md
