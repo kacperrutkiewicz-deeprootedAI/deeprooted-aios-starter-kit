@@ -32,6 +32,10 @@ a post, a plan, a summary). If the task is a one-off, say so and suggest just do
 7. **Which of your files should it read?** Suggest the obvious ones: `context/voice.md` for
    anything written, `context/customers.md` for anything customer-facing.
 
+Facts that can change (phone number, address, prices, hours) don't go inside the skill. Save
+them to the right `context/` file (ask first) and have the skill read that file, so a change
+only happens in one place.
+
 ## Step 3: Name it
 
 Suggest a short name: lowercase, words joined with dashes, verb first if it fits
@@ -87,6 +91,9 @@ After a yes, write the exact same file to both places:
 
 Then read both files back and confirm they match word for word. If they don't, fix the mirror
 so it matches the home copy. Tell the user: "Saved in both skills folders."
+
+Then add one row for it to the skills table in `AGENTS.md`: `/[skill-name]` and when to
+suggest it (one short line). That's how a fresh chat knows it exists.
 
 If the app blocks writing to `.agents/skills/` (Codex protects that folder), tell the user:
 "Your app is asking permission to save into your skills folder. Please approve it." Then retry.

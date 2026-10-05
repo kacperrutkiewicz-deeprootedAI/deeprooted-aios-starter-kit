@@ -81,6 +81,8 @@ Offer, one at a time:
    (or `goals.md`) with the sharp version?" Show the before/after line, then write it after a
    yes, and set `Last updated:` to today. Keep the file's headings exactly as they are.
    Write only the one or two line "After" version there. The details go in step 3.
+   If the file's "This week" section no longer matches the sharp plan, show a before/after
+   for it too, in the same yes.
 2. If they made a real decision: "Want me to log this in `context/decisions.md`?" Add it at the
    bottom as `YYYY-MM-DD: decision (why)`.
 3. If it's a bigger project: "Want me to save the full plan to `projects/[project-name]/plan.md`?"

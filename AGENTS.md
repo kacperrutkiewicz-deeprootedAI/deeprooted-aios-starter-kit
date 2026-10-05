@@ -30,7 +30,8 @@ At the start of every session, read these files:
 2. `context/priorities.md` (what matters right now)
 3. `context/voice.md` (how they want you to talk and write)
 4. `context/session-handoff.md`, if it exists. Open with one line from its "Pick up here":
-   "Last time: [that step]. Want to pick up there?"
+   "Last time: [that step]. Want to pick up there?" If the handoff isn't from today, reword
+   words like "tonight" or "tomorrow" so they're true today.
 
 Read every other file only when the task needs it (see the routing table).
 

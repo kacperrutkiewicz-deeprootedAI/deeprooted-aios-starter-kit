@@ -42,6 +42,10 @@ Draft the day hour by hour. Rules:
 - **Hardest work at peak energy.** Put the #1 priority work in their best energy window
   (from `about-me.md`). Small tasks and admin go in low-energy slots.
 - **Breaks are real blocks.** Add meals and short breaks between long work blocks.
+- **Respect the end time.** No work blocks after the time they want to be done. Personal
+  blocks can go after.
+- **Weekly tasks keep their day.** If an item belongs to a weekly task on another day (from
+  `tools.md`), point it out and ask before moving it to tomorrow.
 - **Be honest about the size.** If the day holds more than fits, say so and suggest what to cut
   or move. If it runs past 10 hours of work, flag it and offer a lighter version.
 - **Name the cut line.** Mark which block gets dropped first if the day runs long.

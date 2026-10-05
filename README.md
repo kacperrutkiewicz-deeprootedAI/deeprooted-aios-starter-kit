@@ -12,8 +12,7 @@ No coding needed. Works with any AI that reads an `AGENTS.md` file (a plain inst
    - Download the zip from the DeepRooted Skool community
 2. **Open the folder** in your AI app:
    - **Claude Desktop:** the **Code** tab (plain Chat and Cowork don't read this folder's instructions)
-   - **VS Code or Cursor:** open the folder, then run `claude` or `codex` in the terminal (once you've installed them; the course checklist walks you through it)
-   - **ChatGPT desktop app:** open the folder as your workspace
+   - **ChatGPT desktop app:** the **Codex** tab, then **New project**, and add this folder
 3. **Type `/onboard`** and answer the questions. When it's done, your AI knows you.
 
 Check it's working anytime: type `aios check`. You should see `AIOS online` plus your name and your #1 priority.
@@ -48,8 +47,8 @@ Check it's working anytime: type `aios check`. You should see `AIOS online` plus
 ## Troubleshooting
 
 - **AI doesn't know your setup?** Type `aios check`. If it fails, look for a stray `CLAUDE.md` in this folder or any folder above it. A `CLAUDE.md` stops Claude from reading `AGENTS.md`.
-- **Claude Code still not reading it?** Type `/config` and set **Project instructions** to `claude-md-or-agents-md`.
-- **Codex asks permission to edit `.agents`?** Approve it. That's your skills folder, and Codex protects it by default.
+- **Claude still not reading it?** In the Code tab, type `/config` and set **Project instructions** to `claude-md-or-agents-md`.
+- **ChatGPT's Codex tab asks permission to edit `.agents`?** Approve it. That's your skills folder, and Codex protects it by default.
 - **Stuck?** Post in the DeepRooted Skool community, or book a 1:1 setup session there.
 
 ## Credits
